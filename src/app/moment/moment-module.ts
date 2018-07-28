@@ -3,13 +3,14 @@ import { MomentService } from './moment';
 
 
 @NgModule({
-    declarations: [
-    ],
-    imports: [
-    ],
-    providers: [
-      MomentService
-    ],
-    bootstrap: []
-  })
-  export class MomentModule { }
+  declarations: [
+  ],
+  imports: [
+  ],
+  providers: [
+    MomentService
+  ],
+  exports: [
+  ]
+})
+export class MomentModule { }
