@@ -1,27 +1,17 @@
 # NewMomentNg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+The goal of this project is to make a more angular friendly version of [moment.js](https://momentjs.com/) that will be injectable and not pollute the global namespace. There will also be pipes that will leverage the power of moment.js.
 
-## Development server
+The package will also come with interfaces defined so you will have auto-complete as well as intellisense guidance.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How to use
 
-## Code scaffolding
+In your project run the command `npm install new-moment-ng --save`. Then you just need to import the `MomentModule` and you're ready to inject `MomentService` in whichever components you will be using. If your project is using any of the [supported plugins](TODO link to wiki page with list) for moment.js then `MomentService` will automatically detect and run with the added functionality of the plugins, the only dependency that this package has is moment.js itself, everything else is optional and up to you to download.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+TODO pipes module
 
-## Build
+## More instructions in the wiki
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Development Setup
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Development deploying
