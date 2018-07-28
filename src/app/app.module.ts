@@ -2,17 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MomentService } from './moment/moment';
+import { MomentModule } from './moment/moment-module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MomentModule,
   ],
   providers: [
-    MomentService
   ],
   bootstrap: [AppComponent]
 })
