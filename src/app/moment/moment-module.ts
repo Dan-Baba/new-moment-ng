@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { MomentService } from './moment';
+import { MomentService } from './moment-service';
 
 
 @NgModule({
